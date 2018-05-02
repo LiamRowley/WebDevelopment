@@ -1,0 +1,35 @@
+body {
+	background-color: black;
+}
+
+p {
+	margin-top: 50px;
+	margin-left: 45%;
+	margin-right: 45%;
+	color: white;
+	font-family: arial;
+	font-size: 25;
+	text-align: center;
+}
+
+.grow {
+	margin-top: 50px;
+	margin-left: 45%;
+	margin-right: 45%;
+	color: white;
+	font-family: arial;
+	font-size: 25;
+	text-align: center;
+}
+.grow:hover {
+	   animation: 
+    stretch
+    1.5s
+    ease-out
+    0s
+    alternate
+    infinite
+    none
+    running;
+
+}
