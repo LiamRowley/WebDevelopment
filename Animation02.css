@@ -1,0 +1,43 @@
+body {
+	background-color: black;
+	background-image: url("http://1-background.com/images/stars-1/beautiful-blue-stars-fill.jpg");
+}
+
+p {
+	margin-top: 50px;
+	color: white;
+	font-family: arial;
+	font-size: 25;
+	text-align: center;
+}
+
+.header{
+	position: relative;
+}
+
+.images{
+	position: sticky;
+	top: 400px;
+}
+
+.grow {
+	background: rgb(0,204,255);
+	border-right: 5px outset rgb(51, 153, 255);
+	border-bottom: 5px outset rgb(51, 153, 255);
+	border-left: 10px outset rgbrgb(51, 153, 255);
+	border-top: 2px outset rgbrgb(51, 153, 255);
+	margin-top: 8px;
+	color: white;
+	font-family: arial;
+	font-size: 25;
+	text-align: center;
+	opacity: 0.8;
+	transition: font-size 0.7s, margin-top 1s, background 1s, border-color 1s, opacity 0.5s;
+}
+.grow:hover {
+	font-size: 60;
+	margin-top: 11px;
+	background: rgb(255, 0, 255);
+	border-color: purple;
+	opacity: 1;
+}
