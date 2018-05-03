@@ -1,0 +1,62 @@
+body{
+	background-image: url("https://space-facts.com/wp-content/uploads/pinwheel-galaxy.jpg");	
+	background-size: contain;
+	overflow: hidden;
+}
+.rotate{
+	top: 40%;
+	left: 40%;
+	vertical-align: center;
+	-webkit-animation: rotation 4s infinite linear;
+}
+
+.rotate2{
+	top: 40%;
+	left: 40%;
+	vertical-align: center;
+	-webkit-animation: rotation 2s infinite linear;
+}
+
+.rotate3{
+	top: 40%;
+	left: 40%;
+	vertical-align: center;
+	-webkit-animation: rotation 5s infinite linear;
+}
+
+.rotate4{
+	top: 40%;
+	left: 40%;
+	vertical-align: center;
+	-webkit-animation: rotation 6s infinite linear;
+}
+
+.rotate5{
+	top: 40%;
+	left: 40%;
+	vertical-align: center;
+	-webkit-animation: rotation 4s infinite linear;
+}
+
+.rotate6{
+	top: 40%;
+	left: 40%;
+	vertical-align: center;
+	-webkit-animation: rotation 4.5s infinite linear;
+}
+
+.rotate7{
+	top: 40%;
+	left: 40%;
+	vertical-align: center;
+	-webkit-animation: rotation 2.5s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+	from {
+		-webkit-transform: rotate(0deg);
+	}
+	to {
+		-webkit-transform: rotate(359deg);
+	}
+}
