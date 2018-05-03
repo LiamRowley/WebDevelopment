@@ -3,29 +3,40 @@ body {
 	background-image: url("http://1-background.com/images/stars-1/beautiful-blue-stars-fill.jpg");
 }
 
-p {
-	margin-top: 50px;
-	color: white;
-	font-family: arial;
-	font-size: 25;
-	text-align: center;
+a:link {
+color: white;
+text-decoration: none;
+}
+
+a:visited {
+color: white;
+text-decoration: none;
+}
+
+a:hover {
+color: white;
+text-decoration: none;
+}
+
+a:active {
+color: white;
+text-decoration: none;
 }
 
 .header{
 	position: relative;
+	opacity: 1;
+	background-image: url("https://i.pinimg.com/236x/f3/37/03/f337039dcc7e6b4347170251acf11652--runner-hoodie.jpg");
 }
 
 .images{
-	position: sticky;
-	top: 400px;
+	position: absolute;
+	top: 550px;
 }
 
 .grow {
 	background: rgb(0,204,255);
-	border-right: 5px outset rgb(51, 153, 255);
-	border-bottom: 5px outset rgb(51, 153, 255);
-	border-left: 10px outset rgbrgb(51, 153, 255);
-	border-top: 2px outset rgbrgb(51, 153, 255);
+	border-bottom: 5px groove rgb(51, 153, 255);
 	margin-top: 8px;
 	color: white;
 	font-family: arial;
@@ -41,3 +52,4 @@ p {
 	border-color: purple;
 	opacity: 1;
 }
+
